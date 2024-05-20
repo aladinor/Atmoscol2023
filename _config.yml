@@ -35,6 +35,7 @@ sphinx:
         "https://docs.google.com/*",
         "https://github.com/jbusecke/*",
         "https://www.meted.ucar.edu/*",
+        "https://thredds-jumbo.unidata.ucar.edu/*"
       ] # don't run link checker on DOI links since they are immutable
     nb_execution_raise_on_error: true # raise exception in build if there are notebook errors (this flag is ignored if building on binder)
     html_favicon: notebooks/images/icons/favicon.ico
